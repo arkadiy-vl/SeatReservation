@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservation.Domain", "src\SeatReservation.Domain\SeatReservation.Domain.csproj", "{F4012941-75C6-49E4-95A1-21708DE7B736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeatReservation.API", "src\SeatReservation.Service\SeatReservation.API.csproj", "{CEA1B5C7-CEF3-43D5-ADCB-068F78CDD136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4012941-75C6-49E4-95A1-21708DE7B736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4012941-75C6-49E4-95A1-21708DE7B736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4012941-75C6-49E4-95A1-21708DE7B736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4012941-75C6-49E4-95A1-21708DE7B736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA1B5C7-CEF3-43D5-ADCB-068F78CDD136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA1B5C7-CEF3-43D5-ADCB-068F78CDD136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA1B5C7-CEF3-43D5-ADCB-068F78CDD136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA1B5C7-CEF3-43D5-ADCB-068F78CDD136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {189B64B8-4754-495F-914A-A74B4E3F08C5}
+	EndGlobalSection
+EndGlobal
